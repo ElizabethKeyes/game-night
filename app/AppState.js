@@ -11,7 +11,7 @@ import { loadState } from "./Utils/Store.js"
 
 class AppState extends EventEmitter {
   /**@type import('./Models/Player.js').Player[] */
-  players = [new Player(`Elizabeth`)];
+  players = [];
 }
 
 
